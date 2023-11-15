@@ -25,7 +25,9 @@
     word-wrap: break-word
 
  }
+
 .contact-card {
+
     border-radius: 16px;
     display: flex;
     flex-direction: column;
@@ -33,6 +35,9 @@ border: 4px solid white ;
 
 align-items: center;
 justify-content: space-between;
+}
+.contact-cards{
+    display: flex;
 }
 .contact-card h3{
     margin-top: 50px;
@@ -74,4 +79,55 @@ font-size: 30px;
 }
 .input-contact input::placeholder{
 font-size: 18px;
+}
+.contact-form{
+display: flex;
+
+}
+.section-form{
+    width: 100%;
+
+}
+.image-form{
+    width: 100%;
+}
+
+@media (max-width:767px) {
+
+    .contact-form{
+        display: block;
+        align-items: start;
+        margin-right: -20px;
+        justify-content: center;
+    }
+    .input-contact input{
+        width: 110% !important;
+
+height: 60px;
+    }
+    .image-form{
+        width: 80%;
+        margin-right: 40px;
+        position: relative;
+    }
+    .image-form img{
+width: 100%;
+    }
+    .areamesage{
+
+margin-top: 100px;
+width: 90%;
+display: flex;
+flex-direction: column;
+align-items: start;
+/* border: 1px solid red; */
+    }
+    .contact-cards{
+        display: block;
+
+     }
+     .contact-card{
+        width: 350px;
+        height: 450px;
+     }
 }
