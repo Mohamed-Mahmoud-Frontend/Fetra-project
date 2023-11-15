@@ -10,6 +10,10 @@
     --shadow-set: inset 0px 11px 8px -10px rgba(255, 255, 255, 0.5),
     inset 0px -11px 8px -10px rgba(0, 0, 0, 0.2);
  }
+ .section-form {
+    overflow: hidden;
+    margin-top: 100px;
+ }
  .text-head{
     text-align: center;
     margin-bottom: 50px;
@@ -63,4 +67,11 @@ font-size: 30px;
     margin-bottom: 30px;
     color: white;
 
+}
+.input-contact input{
+    width: 100% !important;
+
+}
+.input-contact input::placeholder{
+font-size: 18px;
 }
